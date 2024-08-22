@@ -1,0 +1,103 @@
+
+
+
+1.
+     1.public is access specifier 
+       static is a non-access specifier
+       void is a return type
+       main is method name
+       (string []args) is parameter in side parenthesis.
+ 
+
+     2.class is a templet which contains state and behavior.
+       object is a instance of class
+ 
+
+
+    3.jdk is java development kit which contains JRE and development tools
+      JRE which provide run time environment which contains JVM and set of lib
+      JVM is java virtual machine which performs 4 functions -provide run time environment ,read the  bytecode line by line, verifies the byte code, execute the byte code.
+
+
+2.constractor is a special type of method which have same name as class name and does not have return type.
+  Types are default constructor and parameterize constructor.
+
+ 
+3.Diffrence between this key word and this()?
+ keyword = It is a special word which have pre-defined meaning.
+ this key word is used in order to remove ambiguity between instance variable and parameters and used to create object.
+
+
+4.Why main method is static and explain types of method?
+ because we can be create class with out object.
+
+
+7.class Length{
+
+public static void main(String args[]){
+
+int num[] = {12,3,2,45,6,7,6};
+System.out.println("main started");
+for(num = 0;num<=num.length; num++)
+ System.out.println(num.length);
+System.out.Println("main ended");
+
+
+   }
+
+} 
+
+
+8.can we use instance variable inside the static method?
+yes 
+
+
+9.polymorphism is an object which behaves differently at an instance of time.
+example: 
+class Engineer{
+ 
+public void solveProblem(){
+ system.out.println("the problems are solved by engineer");
+}
+
+
+class EcEngineer extends Engineer{
+@Override
+publiv void solveProblems(){
+super.solveProblems();
+system.out.println("the problems are solved by engineer); 
+}
+}
+
+class EngineerRunner{
+
+public static void main(String args[]){
+ 
+Engineer ref = new EcEngineer();
+ref.EcEngineer()  
+}
+
+
+10.inheritance is a process of priority which is given from one class to another  ie from parent class to child class.
+
+
+example: 
+class Hospital{
+ 
+public void getPtient(){
+
+}
+
+class RvHospital extends Hospital{
+ 
+}
+
+
+class HospitalRunner{
+
+public static void main(String args[]){
+
+Hospital ref = new RvHospital();
+ref.RvHospital(); 
+}
+
